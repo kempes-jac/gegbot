@@ -116,7 +116,6 @@ class Jokenpo{
 
         //Vindula o evento de interação com o painel e o coletor de interações
         collector.on('end', async (ButtonInteraction)=>{
-            console.log(ButtonInteraction);
             
             ButtonInteraction.first().deferUpdate();
             //Transforma o CustomID do botão clicado na escolha do jogador
